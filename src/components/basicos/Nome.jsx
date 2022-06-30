@@ -6,7 +6,7 @@ export default function Nome() {
     const [idade, setIdade] = useState(0)
     function trocarNome(nome, idade){
         //alert("Funcionando!")
-        setNome(nome),
+        setNome(nome)
         setIdade(idade)
     }
     return (
